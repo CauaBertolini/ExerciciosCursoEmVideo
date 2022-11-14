@@ -1,0 +1,13 @@
+# Faça um programa que leia algo e diga qual seu tipo primitivo junto a todas as informaçoes possiveis.
+a = input('\033[34mDigite algo: ')
+print('\033[33mSeu tipo primitivo e', type(a))
+print('Ele e numerico?', a .isnumeric())
+print('Ele e formado apenas de espaços?', a.isspace())
+print('Ele e alfabetico?', a .isalpha())
+print('Ele e alfanumerico?', a .isalnum())
+print('Ele esta totalmente em capslock?', a .isupper())
+print('Ele esta escrito somente em letras minusculas?', a .islower())
+print('Ele e um numero decimal?', a .isdecimal())
+print('Ele e um digito?', a .isdigit())
+print('Esta capitalizada?', a.istitle())
+print('\033[36m{} Foi verificado com sucesso!'.format(a))
